@@ -1,3 +1,4 @@
+```python
 def total_revenue(purchases):
     return sum(map(lambda x: x['price'] * x['quantity'], purchases))
 
@@ -46,4 +47,4 @@ print(f'Общая выручка: {total_revenue(purchases)}')
 print(f'Товары по категориям: {items_by_category(purchases)}')
 print(f'Покупки дороже 1.0: {expensive_purchases(purchases, 1.0)}')
 print(f'Средняя цена по категориям: {average_price_by_category(purchases)}')
-print(f'Категория с наибольшим количеством проданных товаров: {most_frequent_category(purchases)}')
+print(f'Категория с наибольшим количеством проданных товаров: {most_frequent_category(purchases)}')```
